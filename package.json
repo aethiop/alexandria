@@ -23,6 +23,7 @@
     "expo-random": "^10.0.0",
     "gun": "git+https://github.com/GoodDollar/gun.git#rnsupport",
     "isomorphic-webcrypto": "latest",
+    "libgen": "^2.1.0",
     "react": "17.0.1",
     "react-dom": "^17.0.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz",

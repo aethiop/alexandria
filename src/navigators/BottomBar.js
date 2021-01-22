@@ -11,9 +11,9 @@ const BottomBar = ({ state, descriptors, navigation }) => {
 				flexDirection: "row",
 				justifyContent: "center",
 				alignItems: "center",
-				height: 65,
+				height: 70,
 				backgroundColor: "#262626",
-				borderRadius: 30,
+				borderRadius: 35,
 				width: "80%",
 				marginLeft: 40,
 				marginRight: 40,
@@ -64,7 +64,7 @@ const BottomBar = ({ state, descriptors, navigation }) => {
 						style={{
 							width:
 								(Dimensions.get("window").width * 13) / 25 / 2,
-							height: 40,
+							height: 60,
 							alignItems: "center",
 							justifyContent: "center",
 							flex: 1,
@@ -74,7 +74,7 @@ const BottomBar = ({ state, descriptors, navigation }) => {
 					>
 						<IconButton
 							name={IconNames[index]}
-							size={25}
+							size={24}
 							color={isFocused ? "white" : "grey"}
 						/>
 					</TouchableOpacity>
